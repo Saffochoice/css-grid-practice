@@ -1,0 +1,28 @@
+body {
+  padding: 10px;
+  margin: 0;
+  background-color: #efefef; }
+  body .nav, body .wrapper {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #fff; }
+  body .nav {
+    margin-bottom: 10px;
+    height: 70px; }
+  body .wrapper {
+    padding: 10px;
+    min-height: 80vh;
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    grid-gap: 10px; }
+    body .wrapper .left-nav {
+      border: 1px solid #efefef; }
+    body .wrapper .items {
+      padding-left: 20px;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-gap: 30px; }
+      body .wrapper .items .item {
+        padding: 20px;
+        height: 190px;
+        border: 1px solid #efefef; }
